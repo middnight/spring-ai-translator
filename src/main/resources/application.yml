@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: translator
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: llama3
+server:
+  port: 9001

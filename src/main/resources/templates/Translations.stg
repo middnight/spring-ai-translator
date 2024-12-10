@@ -1,0 +1,8 @@
+group translations;
+
+
+llama3-translation(to,from,request) ::= <<
+Please translate below <from> text to <to> keeping the values inside {} as they are and only return me the translated text in response.
+
+<request>
+ >>
